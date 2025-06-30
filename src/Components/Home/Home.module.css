@@ -1,0 +1,175 @@
+.homeContainer {
+  max-width: 85%;
+  min-height: 70vh;
+  margin: 0 auto;
+  padding: 32px;
+  font-family: Arial, sans-serif;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.5rem;
+  margin-bottom: 4rem;
+}
+.welcome p {
+  font-weight: bold;
+}
+
+.usernameRed {
+  color: #ff8500;
+  font-weight: bold;
+}
+
+.askbtn {
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 300;
+  transition: background-color 0.3s ease;
+}
+
+.askbtn:hover {
+  background-color: #0056b3;
+}
+.community {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.askpara {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: #3b455a !important;
+}
+
+.askpara:hover {
+  background-color: #f0f0f0;
+}
+
+.userBlock {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.avatarSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+}
+
+.avatarCircle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatarIcon {
+  color: black;
+  font-size: 40px;
+}
+
+.askerName {
+  font-size: 12px;
+  color: #3b455a;
+  font-weight: 600;
+  text-align: center;
+  word-break: break-word;
+}
+
+.questionContent {
+  flex: 1;
+}
+
+.questionTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: bold;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+/* date */
+.dateText {
+  font-size: 12px;
+  color: #0056b3;
+  font-weight: 500;
+  margin-top: 4px;
+}
+/* serach bar */
+ .searchBarWrapper {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.searchInput {
+  width: 90%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-right: 80px;
+} 
+
+
+
+/* Pagination */
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 16px;
+}
+
+.pageBtn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.pageBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pageText {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+
+
+
