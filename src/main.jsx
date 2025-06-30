@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { QuestionProvider } from "./Components/AskQuestion/QuestionContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Evangadi-forum">
     <QuestionProvider>
       <App />
     </QuestionProvider>
